@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp">
+
+    <TextView
+        android:id="@+id/AccountName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:maxLength="25"
+        android:text="Nezar Saleh Hasan Abo ALi sd sd sa d"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/AccountNationalityEn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/AccountName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_toEndOf="@+id/AccountName"
+        android:layout_toRightOf="@+id/AccountName"
+        android:maxLength="10"
+        android:text="AccountNationalityEn"
+        android:visibility="invisible"
+
+        />
+
+
+    <!--<ImageView-->
+    <!--android:layout_width="25dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:src="@drawable/chat"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentEnd="true"-->
+    <!--android:layout_alignBottom="@+id/AccountName"-->
+    <!--android:id="@+id/passenger_lits_item_chat"-->
+    <!--/>-->
+
+    <!--<ImageView-->
+    <!--android:layout_width="25dp"-->
+    <!--android:layout_height="25dp"-->
+    <!--android:src="@drawable/add"-->
+    <!--android:layout_alignBottom="@+id/AccountName"-->
+    <!--android:layout_toLeftOf="@+id/passenger_lits_item_chat"-->
+    <!--android:layout_toStartOf="@+id/passenger_lits_item_chat"-->
+    <!--android:layout_marginRight="8dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:id="@+id/passenger_lits_item_add"-->
+    <!--/>-->
+    <!-- -->
+
+    <ImageView
+        android:id="@+id/passenger_lits_item_call"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/AccountName"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/Driver_Remove_Passenger"
+        android:layout_toStartOf="@+id/Driver_Remove_Passenger"
+        android:paddingTop="5dp"
+        android:src="@drawable/call" />
+
+    <ImageView
+        android:id="@+id/Driver_Remove_Passenger"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/AccountName"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingTop="5dp"
+        android:src="@drawable/deletered" />
+
+
+    <ImageView
+        android:id="@+id/passenger_lits_item_Msg"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/AccountName"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@+id/passenger_lits_item_call"
+        android:layout_toStartOf="@+id/passenger_lits_item_call"
+        android:paddingTop="5dp"
+        android:src="@drawable/msg" />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+</LinearLayout>
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        style="@android:style/Widget.DeviceDefault.RatingBar.Indicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AccountName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:isIndicator="false" />
+
+
+</RelativeLayout>

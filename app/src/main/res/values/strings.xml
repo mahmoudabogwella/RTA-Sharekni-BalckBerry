@@ -1,0 +1,493 @@
+<resources>
+    <string name="app_name">Sharekni</string>
+    <string name="facebook_app_id" translatable="false">1034250206610118</string>
+
+    <string name="title_activity_main" translatable="false">Sharekni</string>
+
+    <string name="hello_world" translatable="false">Hello </string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="next">Next</string>
+    <string name="title_activity_sub_navigate">sharekni</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_colse">Close</string>
+
+
+    <string-array name="tabs">
+        <item>Tab 1</item>
+        <item>Tab 2</item>
+        <item>Tab 3</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_top_rides" translatable="false">TopRidesActivity</string>
+    <string name="title_activity_top_drivers">Top Drivers</string>
+    <string name="title_activity_On_Boarding">Sharekni</string>
+    <string name="title_activity_view_profile" translatable="false">ViewProfileActivity</string>
+    <string name="txt_yo_yo" translatable="false">yo yo</string>
+    <string name="from_text_top_ride">From :</string>
+    <string name="to_text_top_ride">To   :</string>
+    <string name="city_from_txt" translatable="false">City Name</string>
+    <string name="city_to_txt" translatable="false">City Name2</string>
+    <string name="Distreict_name_txt" translatable="false">District Name</string>
+    <string name="district_name_2" translatable="false">District Name 2</string>
+    <string name="txt_arabic" translatable="false">عربي</string>
+    <string name="fragment_one_login_txt">LOGIN</string>
+    <string name="txt_best_drivers">Best Drivers</string>
+    <string name="txt_top_rides">Most Rides</string>
+    <string name="txt_about_us">About Us</string>
+    <string name="title_activity_home_page_test" translatable="false">HomePageTest</string>
+    <string name="title_activity_login_approved" translatable="false">LoginApproved</string>
+    <string name="title_activity_search_options" translatable="false">SearchOptions</string>
+    <string name="title_activity_register_approved">Register</string>
+    <string name="title_activity_route_teset" translatable="false">RouteTesetActiv</string>
+    <string name="title_activity_register_new_test">User Registration</string>
+    <string name="title_activity_my_profile_tet" translatable="false">MyProfileTet</string>
+    <string name="title_activity_top_rides_after_login" translatable="false">TopRidesAfterLogin</string>
+    <string name="title_activity_top_drivers_after_login" translatable="false">TopDriversAfterLogin</string>
+    <string name="title_activity_most_rides_details" translatable="false">MostRidesDetails</string>
+    <string name="title_activity_forget_password" translatable="false">ForgotPassword</string>
+    <string name="title_activity_change_password_test" translatable="false">ChangePasswordTest</string>
+    <string name="title_activity_my_profile_test" translatable="false">MyProfileTest</string>
+    <string name="title_activity_edit_profile_test" translatable="false">EditProfileTest</string>
+    <string name="btn_login_text">Login</string>
+    <string name="title_activity_quick_search" translatable="false">QuickSearch</string>
+    <string name="title_activity_quick_search_results" translatable="false">QuickSearchResults</string>
+    <string name="title_activity_driver_create_car_pool" translatable="false">DriverCreateCarPool</string>
+    <string name="title_activity_qsearch" translatable="false">QSearch</string>
+    <string name="title_activity_advanced__search">Advanced_Search</string>
+    <string name="title_activity_driver_alerts_for_request" translatable="false">DriverAlertsForRequest</string>
+    <string name="title_activity_ride_details_passenger" translatable="false">RideDetailsPassenger</string>
+    <string name="title_activity_driver_request_details" translatable="false">DriverRequestDetails</string>
+    <string name="title_activity_driver_created_rides" translatable="false">DriverCreatedRides</string>
+    <string name="title_activity_driver_joined_rides" translatable="false">DriverJoinedRides</string>
+    <string name="title_activity_splash" translatable="false">SplashActivity</string>
+    <string name="title_activity_test_vedio">Sharekni</string>
+    <string name="title_activity_passenger_my_approved_rides" translatable="false">PassengerMyApprovedRides</string>
+    <string name="title_activity_history">History</string>
+    <string name="title_activity_take_atour" translatable="false">TakeATour</string>
+
+    <string name="navy_Home_Page_txt">Home Page</string>
+    <string name="navy_Most_Rides_str">Most Rides</string>
+    <string name="navy_Best_Drivers_str">Best Drivers</string>
+    <string name="navy_Search_Options_str">Search</string>
+    <string name="navy_Notifications_str">Notifications</string>
+    <string name="navy_Logout_str">Logout</string>
+    <string name="navy_List_image_content_Desc" translatable="false">navy_image_icon</string>
+
+    <string name="Reg_appBar_name">Registration</string>
+    <string name="fill_all_error">Fill all the required fields</string>
+    <string name="fill_Email">Fill Email please</string>
+    <string name="Reg_FirstN">First Name</string>
+    <string name="Reg_LastN">Last Name</string>
+    <string name="REg_Mobile">Mobile Number</string>
+    <string name="Reg_Email">Username (Your Email)</string>
+    <string name="Reg_pass">Password</string>
+    <string name="Reg_Nat">Nationality</string>
+    <string name="Reg_PrefLang">Preferred Language</string>
+    <string name="title_activity_pick_up" translatable="false">PickUpActivity</string>
+    <string name="title_activity_terms_and_cond">TermsAndCond</string>
+
+
+    <string name="title_activity_register_vehicle" translatable="false">RegisterVehicle</string>
+    <string name="Register_Vehicle_Driving_License_No">Traffic File No.</string>
+    <string name="Select_Emirate_txt">Select Emirate</string>
+    <string name="Ok_txt">Ok</string>
+    <string name="Register_Vehicle_Trraffic_Number_Border_Title_">Register Vehicles</string>
+    <string name="Pick_Emirate_arrow_content_Desc" translatable="false">pick emirate arrow image</string>
+    <string name="Btn_Submit_txt">Submit</string>
+    <string name="title_activity_register__vehicle__verify" translatable="false">Register_Vehicle_Verify</string>
+    <string name="register_vehicle_verify_border_title">Verification</string>
+    <string name="btn_verify_txt">Verify</string>
+    <string name="verify_Unified_ID">Unified ID</string>
+    <string name="verify_passport_number_txt">Please enter the passport number</string>
+    <string name="mobile_number_const" translatable="false">+971 -</string>
+    <string name="onboard_most_rides">Most Rides</string>
+    <string name="onboard_best_drivers">Best Drivers</string>
+    <string name="reg_DateOfBirth">Date of Birth</string>
+    <string name="reg_gender_male">Male</string>
+    <string name="reg_gender_female">Female</string>
+    <string name="reg_upload_photo">Upload your Photo</string>
+    <string name="reg_accept_rta">I Accept The RTA\'s</string>
+    <string name="reg_save">Save</string>
+    <string name="reg_terms">Terms and Conditions.</string>
+    <string name="reg_policy">Privacy Policy.</string>
+    <string name="loading">Loading</string>
+    <string name="login_email_hint">example@gmail.com</string>
+    <string name="login_pass_hint">Password</string>
+    <string name="login_check_user_pass">Check your Username and Password</string>
+    <string name="login_wrong_user_pass">Wrong Username Or Password</string>
+    <string name="login_network_error">Network Error !</string>
+    <string name="nat_name">NationlityEnName</string>
+    <string name="nat_name2">NationalityEnName</string>
+    <string name="lang_name">LanguageEnName</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="choose_from_library">Choose from Library</string>
+    <string name="cancel">Cancel</string>
+    <string name="add_photo">Add Photo!</string>
+    <string name="select_file">Select File</string>
+    <string name="unknown_country">Incorrect Country ( Choose From The List )</string>
+    <string name="unknown_language">unknown Language ( Choose From The List )</string>
+    <string name="short_pass">Password must be at least 5 Characters</string>
+    <string name="short_mobile">Enter valid Mobile Number</string>
+    <string name="select_image_first_error">Select Profile Image!!</string>
+    <string name="select_type_first_error">Please choose registration type</string>
+    <string name="connection_problem">Connection Problem!</string>
+    <string name="con_problem_message">Make sure you have internet connection</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit!</string>
+    <string name="goBack">Go Back</string>
+    <string name="reg_now">Register Now |</string>
+    <string name="forget_pass">Forgot Password?</string>
+    <string name="start_point">(Start Point)</string>
+    <string name="not_set">Not Specified</string>
+    <string name="end_point">(End Point)</string>
+    <string name="quick_search">Quick Search</string>
+    <string name="languages">Languages</string>
+    <string name="destination">Click to Set Direction</string>
+    <string name="pickup">Pick Up</string>
+    <string name="dropoff">Drop Off</string>
+    <string name="start_date">Start Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="search">Search</string>
+    <string name="map_lookup">Map Lookup</string>
+    <string name="most_rides">Most Rides</string>
+    <string name="advanced_search">Advanced Search</string>
+    <string name="select_emirate">Select Emirate</string>
+    <string name="enter_region">Enter Region</string>
+    <string name="em_name">EmirateEnName</string>
+    <string name="reg_name">RegionEnName</string>
+    <string name="from_em_name_en">FromEmirateNameEn</string>
+    <string name="from_reg_name_en">FromRegionNameEn</string>
+    <string name="to_em_name_en">ToEmirateNameEn</string>
+    <string name="to_reg_name_en">ToRegionNameEn</string>
+    <string name="single">Single</string>
+    <string name="periodic">Periodic</string>
+    <string name="optional">(Optional)</string>
+    <string name="pref_nat">Preferred Nationality</string>
+    <string name="choose_lang">Choose A Language</string>
+    <string name="choose_age">Choose Age Range</string>
+    <string name="drivers">Drivers</string>
+    <string name="email_valid_form">Please enter valid email</string>
+    <string name="ride_details">Ride Details</string>
+    <string name="starting_time">Starting Time</string>
+    <string name="sat">, Sat</string>
+    <string name="sun">, Sun</string>
+    <string name="mon">, Mon</string>
+    <string name="tue">, Tue</string>
+    <string name="wed">, Wed</string>
+    <string name="thu">, Thu</string>
+    <string name="fri">, Fri </string>
+    <string name="driver_details">Driver Details</string>
+    <string name="route_name" translatable="false">RouteEnName</string>
+    <string name="time">Time </string>
+    <string name="ride_days">Ride Days</string>
+    <string name="review">Review</string>
+    <string name="pref">Preferences</string>
+    <string name="language">Language</string>
+    <string name="age_range">Age Range</string>
+    <string name="gender">Gender</string>
+    <string name="smokers">Smokers</string>
+    <string name="nationality">Nationality</string>
+    <string name="reviews">Reviews</string>
+    <string name="join_ride">Join Ride</string>
+    <string name="login_first">In order to proceed you have to login first</string>
+    <string name="cannot_review">Cannot Review</string>
+    <string name="done">Done</string>
+    <string name="pref_lang">PrefLanguageEnName</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="write_remark">Write Your remarks</string>
+    <string name="your_remarks">Your remarks</string>
+    <string name="i_like_join_ride">I\'d like to join your Ride</string>
+    <string name="already_sent_request">You have already sent request</string>
+    <string name="req_sent_succ">Request had been sent Successfully , wait for driver’s approval.</string>
+    <string name="req_sent_succ2">Request had been sent Successfully, wait for Passenger’s Approval.</string>
+    <string name="acc_nat_name">AccountNationalityEn</string>
+    <string name="from_reg_en_name">FromRegionEnName</string>
+    <string name="to_reg_en_name">ToRegionEnName</string>
+    <string name="from_em_en_name">FromEmirateEnName</string>
+    <string name="to_em_en_name">ToEmirateEnName</string>
+    <string name="fto_reg_en_name">ToRegionEnName</string>
+    <string name="passenger_send_you_request">Send You A Join Request</string>
+    <string name="reject_your_request">Rejected Your Request</string>
+    <string name="accept_your_request">Accepted Your Request</string>
+    <string name="home_page">Home Page</string>
+    <string name="saved_search">Saved Search</string>
+    <string name="rides_joined">Rides Joined</string>
+    <string name="create_ride">Create Ride</string>
+    <string name="permit">Permit</string>
+    <string name="history">Happiness</string>
+    <string name="ride_created">Ride Created</string>
+    <string name="ride_created2">Ride Created!</string>
+    <string name="ride_joined">Ride Joined</string>
+    <string name="vehicles">Vehicles</string>
+    <string name="cannot_delete_route">Cannot Delete This Route</string>
+    <string name="route_deleted">Route Deleted</string>
+    <string name="some_thing_is_wrong">Some Thing Is Wrong !?</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="verified">Verified</string>
+    <string name="invalid_dob">Date of birth invalid</string>
+    <string name="lic_ver_but_no_cars">License verified, but no cars found</string>
+    <string name="invalid_data">Invalid data, please check again</string>
+    <string name="notification">Notifications</string>
+    <string name="reject_request">Has Rejected Your Request</string>
+    <string name="accept_request">Has Accepted Your Request</string>
+    <string name="pending_request">Received Your Request And Waiting For Approval</string>
+    <string name="join_request">Send you a join Request</string>
+    <string name="no_created_rides">There are no rides created yet</string>
+    <string name="set_direction">Set Direction</string>
+    <string name="ride_name">Ride Name</string>
+    <string name="select_vehicle">Select Vehicle</string>
+    <string name="available_seats">Available Seats</string>
+    <string name="select_pref_nat">Preferred Nationality</string>
+    <string name="select_pref_lang">Choose A Language</string>
+    <string name="days_of_week">Days of Week</string>
+    <string name="Sat">Sat</string>
+    <string name="Sun">Sun</string>
+    <string name="Mon">Mon</string>
+    <string name="Tue">Tue</string>
+    <string name="Wed">Wed</string>
+    <string name="Thu">Thu</string>
+    <string name="Fri">Fri</string>
+    <string name="pref_optional">Preferences (Optional)</string>
+    <string name="create">Create</string>
+    <string name="no_rides_joined">There are no rides joined</string>
+    <string name="no_permits">There is no permit yet</string>
+    <string name="enter_licence">Please enter the driving license No.</string>
+    <string name="dob">Date of Birth</string>
+    <string name="select_profile_image">Select Profile Image!!</string>
+    <string name="first_name">First Name</string>
+    <string name="pref_lang2">PrefferedLanguageEnName</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="write_your_review">Write Your Review</string>
+    <string name="your_review">Your Review</string>
+    <string name="forget_password">Forgot Password</string>
+    <string name="check_user_pass">Check your Username and Password</string>
+    <string name="enter_your_no">Enter your number</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="search_results">Search Results</string>
+    <string name="no_routes_available">No Routes Available</string>
+    <string name="nat_en">Nationality_en</string>
+    <string name="comming_ride">Coming Ride :</string>
+    <string name="passengers">Passengers:</string>
+    <string name="driver_count">Drivers:</string>
+    <string name="after_min">After 6:15 Minutes</string>
+    <string name="created_rides">Created Rides</string>
+    <string name="joined_rides">Joined Rides</string>
+    <string name="passenger_name">Passenger Name</string>
+    <string name="route_name2" translatable="false">RouteName</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="Preferences">Preferences</string>
+    <string name="choose_language">Choose Your Language</string>
+    <string name="choose_language_mss">What is your Preferred Language ?</string>
+    <string name="navy_change_language">اللغة العربية</string>
+    <string name="no_review_statement">There is no reviews added</string>
+    <string name="permit_granted">Permit Granted</string>
+    <string name="cannot_grat_permit">You can\'t gain permit</string>
+    <string name="issue_date">Issue date :</string>
+    <string name="expite_date">Expire date :</string>
+    <string name="terms_con">Terms and Conditions</string>
+    <string name="terms_file">file:///android_asset/terms_en.html</string>
+    <string name="policy_file">file:///android_asset/policy.html</string>
+    <string name="policy">Security and Privacy Policies</string>
+    <string name="close">Close</string>
+    <string name="agree">Agree</string>
+    <string name="send_you_join_request">" Send You A Join Request "</string>
+    <string name="route">Route :</string>
+    <string name="request_date">Request Date</string>
+    <string name="remarks">Remarks</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="edit_msg">Details Updated</string>
+    <string name="Driver_request_details_address">Notification Details</string>
+    <string name="Age_Ranges_str">Age Ranges</string>
+    <string name="click_to_select">Click to Select</string>
+    <string name="man_en_name">ManufacturingEnName</string>
+    <string name="edit_ride">Edit Ride</string>
+    <string name="password">Password</string>
+    <string name="no_result_criteria">There are no results matching your search criteria</string>
+    <string name="error">Error</string>
+    <string name="must_be_more_18">You Must be more than 18 years</string>
+    <string name="too_young">you should be older than 18 years</string>
+    <string name="No_History">No History Found</string>
+    <string name="No_Saved_Search">No Saved Search</string>
+    <string name="driver_nat_en_name">DriverNationalityEnName</string>
+    <string name="passenger_nat_en_name">PassengerNationalityEnName</string>
+    <string name="nat_rn_name">NationalityEnName</string>
+    <string name="Register_vehicle_update">Details Updated</string>
+    <string name="Account_Approved_rides_Details">Details</string>
+    <string name="Account_Approved_rides_Driver">Driver</string>
+    <string name="Account_Approved_rides_leave">Leave</string>
+    <string name="enter_file_no">Enter File Number Please</string>
+    <string name="enter_DOB">Enter Birth Date Please</string>
+    <string name="enter_file_DOB">Enter File Number and Birth Date Please</string>
+    <string name="route_name_exist">Route Name Exists!!</string>
+    <string name="reached_max_rides">You Have Reached Max Rides Allowable!!</string>
+    <string name="ride_updated">Ride Updated!!</string>
+    <string name="cant_user_file_number">you can\'t use this file number</string>
+    <string name="review_deleted">Review Deleted</string>
+    <string name="request_failed">Request Failed</string>
+    <string name="My_vehicles_str">vehicles</string>
+    <string name="Registered_Vehicles_str">Registered Vehicles</string>
+    <string name="Emirate_Dubai">Dubai</string>
+    <string name="No_Vehicles">No vehicles</string>
+    <string name="Delete_Passenger_dialog_str">Delete Passenger</string>
+    <string name="Are_You_Sure_msg_dilog">Are you sure that you want to delete this?</string>
+    <string name="passenger_deleted_successfully">Passenger deleted successfully</string>
+    <string name="Delete_Ride">Delete Ride</string>
+    <string name="choose_birth_date">Choose your Birth Date</string>
+    <string name="taken_username">Email already exist, please choose an alternative email address</string>
+    <string name="taken_mobile">Mobile No. already exist, please choose another</string>
+    <string name="taken_mobile_2">Mobile No. already exist, please choose another</string>
+    <string name="Write_review_first">Please write a review first</string>
+    <string name="Delete_Review_Str">Delete Review</string>
+    <string name="Leave_Ride_Str">Leave Ride</string>
+    <string name="Are_you_sure_leave_ride">Are you sure that you want to leave this ride?</string>
+    <string name="You_have_leaved_this_ride">You have left  this ride</string>
+    <string name="delet_ride_str">Are you sure that you want to delete this ride?</string>
+    <string name="Main_Screen">Main Screen</string>
+    <string name="Login_page">Login Page</string>
+    <string name="New_Registration_str">New Registration</string>
+    <string name="Serch_takeatour">Search</string>
+    <string name="Ride_Edited">Ride Edited</string>
+    <string name="Now_What_would_you_like_to_do">Start using the App</string>
+    <string name="please_confirm_to_delete">Please confirm to delete</string>
+    <string name="please_confirm_to_cancel">Please confirm to delete request</string>
+    <string name="Delete_msg">Delete</string>
+    <string name="Confirm_str">Confirm</string>
+    <string name="Cancel_msg">DELETE</string>
+    <string name="No_Phone_Number_msg">No Phone Number</string>
+    <string name="Accept_Smokers_txt">Accept Smokers</string>
+    <string name="change_vehicle">Change Vehicle</string>
+    <string name="Refresh_vehicles">Refresh</string>
+    <string name="Rate_str">Rate</string>
+    <string name="Verify_str">Verify</string>
+    <string name="rate_submitted">Rate is successfully submitted</string>
+    <string name="request_removed">Request is successfully removed</string>
+    <string name="rate_submit_failed">can\'t submit rate</string>
+    <string name="Save_Changes_Edit_Carpool">Save Changes</string>
+    <string name="VehicleName_Edit_CarPool">VehicleEnName</string>
+    <string name="check_internet">Failed to get data Check Internet connection!</string>
+    <string name="write_your_code">Enter Your Code</string>
+    <string name="please_enter_code_first">Please Enter your code first</string>
+    <string name="Your_Code">Your Code</string>
+    <string name="code_is_wrong">Code is Wrong</string>
+    <string name="Enter_code_again">Resend Code again</string>
+    <string name="Updating_vehicles_str">Updating Vehicles</string>
+    <string name="plese_check_file_number_first">Please check file number first</string>
+    <string name="check_mobile_and_email">Please check Email</string>
+    <string name="select_start_point">Please select the start point</string>
+    <string name="region_identical">From and To Regions Can\'t Be Identical!</string>
+    <string name="choose_oneday">Please choose at least one day</string>
+    <string name="reg_gender_both">Both</string>
+    <string name="accept_smoking_Str" translatable="false">Accept Smoking</string>
+    <string name="accept_smokers_str">Accept</string>
+    <string name="not_accept_smokers_str">Not Accept</string>
+    <string name="is_smoking_Str">Smokers</string>
+    <string name="preferred_gender_Str">Preferred Gender</string>
+    <string name="Review_updated">Review Updated</string>
+    <string name="delete_request_Str">Delete Request</string>
+    <string name="noVehiclesFound">You don\'t have any vehicle registered</string>
+    <string name="RegisterVehicle_Btn">Register Vehicle</string>
+    <string name="Dismiss_txt">Dismiss</string>
+    <string name="last_seen_textview">Last Seen :</string>
+    <string name="drivers_Str">Drivers</string>
+    <string name="passengers_Str">Passengers</string>
+    <string name="InvitePassenger">I\'d like to invite you to my ride</string>
+    <string name="select_ride">Select Ride</string>
+    <string name="send_invitation_str">send invitation</string>
+    <string name="choose_ride_to_send_invitation">Choose Ride to send Invitation</string>
+    <string name="ride_name_str">Ride Name :</string>
+    <string name="saveSearch_Error">To save the search you must choose  a start point and also a destination</string>
+    <string name="invite_">Invite</string>
+    <string name="matched_search_results">Matched Search Results</string>
+    <string name="Sent_Invite">Has Sent you an Invitation</string>
+    <string name="_18_years">+18 years</string>
+    <string name="Driver_pending_request">Received Your invitation And Waiting For Approval</string>
+    <string name="Max_Routes_Reached">You Have Reached Maximum Rides Allowable!!</string>
+    <string name="Location_Not_Enabled">Location is not Enabled</string>
+    <string name="Please_turn_on_gps_first">Please turn on GPS first</string>
+    <string name="Turn_On">Turn On</string>
+    <string name="No_Map">No</string>
+    <string name="Please_enter_emiate_and_region">Please enter Emirate and Region</string>
+    <string name="No_passengers_Found">No Passengers Found</string>
+    <string name="No_Location_Detected">No Location Detected</string>
+    <string name="Password_sould_be_more_than_five_chars">Password Should be More than 5 characters</string>
+    <string name="choose_Pick_Up_And_Drop_Off">Please Choose Pick Up and Drop off</string>
+    <string name="Delete_Request">Delete Request</string>
+    <string name="no_available_seats">Not available seats</string>
+    <string name="Send_Invite_Str">Send</string>
+    <string name="invite_yes">Yes</string>
+    <string name="No_Phone_number">No Phone Number</string>
+    <string name="points_str">Points</string>
+    <string name="km_str">Km</string>
+    <string name="routes_str">Routes</string>
+    <string name="vehicles_str">Vehicles</string>
+    <string name="kg_str">Kg</string>
+    <string name="co2_saving">CO2 Saving</string>
+    <string name="ok_2">Ok</string>
+    <string name="forget_password_complete">A reset password link has been sent to your email. Please note that this link is valid for one day only.</string>
+    <string name="FAQ_Answer_1" translatable="false">1- Contribute to reducing overall traffic congestion and reduce number of cars during rush hours.
+2- Contribute to resolving parking problem around work locations.
+3- Reduce your transport expenses.
+4- Build a strong social connection and make new friends.
+</string>
+    <string name="FAQ_Question_1" translatable="false">What is the benefits of Sharekni?</string>
+    <string name="FAQ_Question_2" translatable="false">Is the service free?</string>
+    <string name="FAQ_Question_3" translatable="false">How many passengers are allowed in one permission?</string>
+    <string name="FAQ_Question_4" translatable="false">What is the validity of the permission?</string>
+    <string name="FAQ_Question_5" translatable="false">How many rides can the driver obtain?</string>
+    <string name="FAQ_Question_6" translatable="false">How to register in sharekni?</string>
+    <string name="FAQ_Question_7" translatable="false">Can the permit be used in other emirates?</string>
+    <string name="FAQ_Question_8" translatable="false">How to issue Sharekni Electronic Permit</string>
+    <string name="FAQ_Question_9" translatable="false">How do I register my vehicle?</string>
+    <string name="FAQ_Question_10" translatable="false">How do I edit my profile?</string>
+
+    <string name="FAQ_Answer_2" translatable="false">Yes, it is. </string>
+    <string name="FAQ_Answer_3" translatable="false"> Allowed 4 passengers as maximum.</string>
+    <string name="FAQ_Answer_4" translatable="false">The permission is valid for 6 months.</string>
+    <string name="FAQ_Answer_5" translatable="false">Allowed 2 rides as maximum.</string>
+    <string name="FAQ_Answer_6" translatable="false">1- Open the application
+2- Click register
+3- Enter all required information
+4- Accept terms and conditions
+5- Click save button
+</string>
+
+
+    <string name="FAQ_Answer_7" translatable="false">The permit is effective only in Dubai.</string>
+
+    <string name="FAQ_Answer_8" translatable="false">1- After you accept other\'s invitations or if your invitation is accepted by others click on permit button to generate the permit.2- Print the permit and keep it  in your car during the trip
+</string>
+
+    <string name="FAQ_Answer_9" translatable="false">1- After you register as a driver click on vehicles
+2- Enter your birthdate and traffic file number
+3- Click submit button to view your vehicle plate number
+4- Click on the plate number
+5- Click save button
+</string>
+    <string name="FAQ_Answer_10" translatable="false">The stored profile is available on the main menu. Open menu > Edit profile and enter the updated input</string>
+    <string name="help_and_faq">Help And FAQ</string>
+    <string name="Emirates_Str">Emirates</string>
+    <string name="change_language">Change Language</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_filipino">filipino</string>
+    <!--<string name="ga_trackingId">UA-70176053-1</string>-->
+    <!--<string name="google_app_id">1:780076415361:android:c101984c52985d9b</string>-->
+
+    <array name="Languages">
+        <item>Arabic</item>
+        <item>English</item>
+        <item>Chinese</item>
+        <item>filippine</item>
+    </array>
+
+</resources>

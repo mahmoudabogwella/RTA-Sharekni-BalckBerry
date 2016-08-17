@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/Driver_Get_Review_im"
+        android:src="@drawable/defaultdriver"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@+id/Driver_Get_Review_im"
+        android:layout_toRightOf="@+id/Driver_Get_Review_im"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:id="@+id/Driver_Get_Review_AccountName"
+        android:maxLength="16"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_below="@+id/Driver_Get_Review_AccountName"
+        android:layout_alignStart="@+id/Driver_Get_Review_AccountName"
+        android:layout_alignLeft="@+id/Driver_Get_Review_AccountName"
+        android:layout_marginTop="5dp"
+        android:maxLength="17"
+        android:visibility="invisible"
+        android:id="@+id/Driver_Get_Review_Nat"
+        android:textSize="18sp"
+        />
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_alignStart="@+id/Driver_Get_Review_Nat"
+        android:layout_alignLeft="@+id/Driver_Get_Review_Nat"
+        android:background="@drawable/bubble_b"
+        android:gravity="start|center_vertical"
+        android:id="@+id/Driver_Get_Review_Review"
+        android:layout_below="@+id/Driver_Get_Review_Nat"
+        android:textSize="18sp"
+
+        />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/deletered"
+        android:id="@+id/Driver_Delete_Review"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+
+        />
+    <ImageView
+        android:id="@+id/Edit_Review_Im"
+        android:layout_toLeftOf="@+id/Driver_Delete_Review"
+        android:layout_toStartOf="@+id/Driver_Delete_Review"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/newedit" />
+
+
+
+
+</RelativeLayout>

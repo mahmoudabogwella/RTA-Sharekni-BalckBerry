@@ -1,0 +1,56 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/primaryColor</item>
+
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+    </style>
+
+
+    <style name="MyCustomToolBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="android:popupMenuStyle">@color/primaryColorDark</item>
+        <item name="android:homeAsUpIndicator">@color/primaryColorDark</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/accentColor</item>
+
+
+    </style>
+
+
+    <style name="date_picker" parent="android:style/Widget.DatePicker">
+        <item name="android:divider">@drawable/testredline</item>
+        <item name="android:datePickerStyle">@color/primaryColor</item>
+        <item name="android:childDivider">@drawable/testredline</item>
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+    <style name="AppTheme.Base.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.Base.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+    <style name="sharekniRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/ic_grade_white_36dp</item>
+        <item name="android:minHeight">36dip</item>
+        <item name="android:maxHeight">36dip</item>
+    </style>
+
+
+    <style name="theme_sms_receive_dialog" parent="android:style/Theme.Dialog">
+        <item name="@android:windowBackground">@color/white</item>
+        <item name="android:windowMinWidthMajor">100%</item>
+        <item name="android:windowMinWidthMinor">100%</item>
+    </style>
+
+
+</resources>

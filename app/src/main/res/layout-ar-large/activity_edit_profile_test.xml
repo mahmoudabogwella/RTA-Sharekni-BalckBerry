@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/registerbackgroundtest">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            android:scrollbars="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/user_register_border"
+                android:orientation="horizontal"
+
+                >
+
+
+                <EditText
+                    android:id="@+id/edit_reg_fname"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/borders_edit_txt_user_register"
+                    android:cursorVisible="true"
+                    android:hint="@string/Reg_FirstN"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primaryColor"
+                    android:textSize="18sp"
+
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/user_register_border">
+
+
+                <EditText
+                    android:id="@+id/edit_reg_lname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/borders_edit_txt_user_register"
+                    android:cursorVisible="true"
+                    android:hint="@string/Reg_LastN"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primaryColor"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layoutDirection="ltr"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/user_register_border"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layoutDirection="ltr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" + 971 - "
+                    android:textSize="18sp"
+                    />
+
+                <EditText
+                    android:layoutDirection="ltr"
+                    android:id="@+id/edit_reg_mob"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/borders_edit_txt_user_register"
+                    android:cursorVisible="true"
+                    android:hint="@string/REg_Mobile"
+                    android:maxLength="9"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primaryColor"
+                    android:textSize="18sp"
+                    android:inputType="phone"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/Edit_Profile_Nat_Linear"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/user_register_border"
+                >
+
+                <AutoCompleteTextView
+                    android:id="@+id/autocompletecountry_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/borders_edit_txt_user_register"
+                    android:cursorVisible="true"
+                    android:hint="@string/nationality"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primaryColor"
+                    android:textSize="18sp"
+                    android:imeOptions="actionDone"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/user_register_border">
+
+                <TextView
+                    android:id="@+id/autocomplete_lang_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/borders_edit_txt_user_register"
+                    android:hint="@string/select_pref_lang"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textColorHint="@color/primaryColor"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/user_register_border">
+
+
+                <TextView
+                    android:id="@+id/malefemale_txt_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_toLeftOf="@+id/malefemale_edit"
+                    android:layout_toStartOf="@+id/malefemale_edit"
+                    android:text="@string/reg_gender_male"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/femalemale_txt_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_toEndOf="@+id/malefemale_edit"
+                    android:layout_toRightOf="@+id/malefemale_edit"
+                    android:text="@string/reg_gender_female"
+                    android:textColor="@color/gray_before_login"
+                    android:textSize="18sp" />
+
+
+                <ImageView
+                    android:id="@+id/malefemale_edit"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/slidemale" />
+
+                <ImageView
+                    android:id="@+id/femalemale_edit"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/slidefemale"
+                    android:visibility="invisible"
+
+                    />
+
+            </RelativeLayout>
+
+
+            <Button
+                android:id="@+id/btnUploadPhotoEdt"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/user_register_border_button"
+                android:text="@string/reg_upload_photo"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="80dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp">
+
+                <Button
+                    android:id="@+id/btn_Edit_id"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/user_register_border_button"
+                    android:text="@string/Btn_Submit_txt"
+                    android:textAllCaps="false"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/btn_Edit_Cancel"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_toEndOf="@+id/btn_Edit_id"
+                    android:layout_toRightOf="@+id/btn_Edit_id"
+                    android:background="@drawable/user_register_border_button"
+                    android:text="@string/cancel"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
